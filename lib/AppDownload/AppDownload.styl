@@ -1,0 +1,49 @@
+@require '../../example/themes/variables.styl' 
+.footer-apps
+    text-align: center
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: center
+
+.footer-apps h2
+    font-size: 14px
+    color: #85828c
+    font-weight: 300
+    flex: 1 1 100%
+
+.footer-apps a
+    &:link
+        text-decoration: none
+        color: #888
+        padding: 5px 0
+        display: block
+    &:visited
+        text-decoration: none
+        color: #888
+        padding: 5px 0
+        display: block
+
+.footer-apps a
+.footer-apps a
+    &:link
+        max-width: 100px
+    &:visited
+        max-width: 100px
+        margin: 0 .5em
+
+.footer-apps a
+    max-width: 100px
+    margin: 0 .5em
+
+@media only screen and (min-width: $break-point-medium)
+    .footer-apps a
+        &:link
+            padding: 0
+        &:visited
+            padding: 0
+
+@media only screen and (min-width: $break-point-large)
+    .footer-apps
+        justify-content: flex-start
+        text-align: left

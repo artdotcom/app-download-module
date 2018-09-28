@@ -10,9 +10,11 @@ if (process.env.BROWSER) {
 const AppDownload = ({ badgeIcons }) => (
   <div className="footer-apps">
     <h2>Download the App</h2>
-    {badgeIcons.map(icon => (
-      <Icon {...icon} />
-    ))}
+    <div>
+      {badgeIcons.map(icon => (
+        <Icon {...icon} />
+      ))}
+    </div>
   </div>
 )
 

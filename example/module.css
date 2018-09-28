@@ -1,0 +1,51 @@
+.footer-apps {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer-apps h2 {
+  font-size: 14px;
+  color: #85828c;
+  font-weight: 300;
+  flex: 1 1 100%;
+}
+.footer-apps a:link {
+  text-decoration: none;
+  color: #888;
+  padding: 5px 0;
+  display: block;
+}
+.footer-apps a:visited {
+  text-decoration: none;
+  color: #888;
+  padding: 5px 0;
+  display: block;
+}
+.footer-apps a:link {
+  max-width: 100px;
+}
+.footer-apps a:visited {
+  max-width: 100px;
+  margin: 0 0.5em;
+}
+.footer-apps a {
+  max-width: 100px;
+  margin: 0 0.5em;
+}
+@media only screen and (min-width: 768px) {
+  .footer-apps a:link {
+    padding: 0;
+  }
+  .footer-apps a:visited {
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 1008px) {
+  .footer-apps {
+    justify-content: flex-start;
+    text-align: left;
+  }
+}
+/*# sourceMappingURL=lib/AppDownload/AppDownload.css.map */
